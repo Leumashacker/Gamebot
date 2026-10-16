@@ -1,0 +1,17 @@
+{
+  "name": "offline-buddy-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot that entertains friends with games and a story while you're offline",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": ">=1.26.1-alpha.1"
+  }
+}
