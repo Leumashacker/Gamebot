@@ -8,10 +8,12 @@
     "test": "node test.js"
   },
   "engines": {
-    "node": ">=18"
+    "node": "20.x"
   },
   "dependencies": {
-    "qrcode-terminal": "^0.12.0",
-    "whatsapp-web.js": ">=1.26.1-alpha.1"
+    "@whiskeysockets/baileys": "^6.7.17",
+    "express": "^4.18.2",
+    "pino": "^8.19.0",
+    "qrcode-terminal": "^0.12.0"
   }
 }
