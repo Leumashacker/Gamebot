@@ -1,3 +1,7 @@
+const express = require('express')
+require('express')().get('/', (req,res)=>res.send('Bot alive')).listen(10000)
+
+
 const { Client, LocalAuth } = require('whatsapp-web.js');
 const qrcode = require('qrcode-terminal');
 const config = require('./config');
