@@ -1,13 +1,13 @@
 // Edit these to taste.
 module.exports = {
   // Name friends will see in the bot's greeting and in the story.
-  // You can also run:  OWNER_NAME="Wilson" npm start
-  ownerName: process.env.OWNER_NAME || 'the owner',
+  // You can also run:  OWNER_NAME="Thaci" npm start
+  ownerName: process.env.OWNER_NAME || 'Thaci',
 
   // YOUR WhatsApp number with country code, digits only (e.g. '254712345678').
   // When set, you link the bot by typing an 8-character code on your phone — no QR scan needed.
   // You can also run:  PHONE_NUMBER=254712345678 npm start
-  phoneNumber: process.env.PHONE_NUMBER || '',
+  phoneNumber: process.env.PHONE_NUMBER || '254728879825',
 
   // Leave empty to entertain everyone who texts you.
   // Or list numbers (country code, digits only) to restrict the bot to them, e.g. ['254712345678'].
